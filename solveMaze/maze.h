@@ -24,6 +24,7 @@ extern int visited[ROW][COL];
 extern int rows[4];
 extern int cols[4];
 
+void printMaze();
 void initStack(Stack* s);
 int isEmpty(Stack* s);
 int isFull(Stack* s);

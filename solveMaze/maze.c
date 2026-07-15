@@ -6,13 +6,23 @@ int maze[ROW][COL] = {
     {0, 1, 0, 1, 0},
     {0, 0, 0, 1, 0},
     {0, 1, 1, 1, 0},
-    {1, 0, 0, 0, 0}
+    {1, 0, 1, 0, 0}
 };
 
 int visited[ROW][COL] = {0};
 // 상, 하, 좌, 우 순서
 int rows[4] = {0, 0, -1, 1};
 int cols[4] = {-1, 1, 0, 0};
+
+
+void printMaze() {
+    for(int i = 0; i < ROW; i++) {
+        for(int j = 0; j < COL; j++) {
+            printf("%d", maze[i][j]);
+        }
+        printf("\n");
+    }
+}
 
 void initStack(Stack *s) {
     s->top = -1;

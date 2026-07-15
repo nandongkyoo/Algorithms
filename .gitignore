@@ -1,1 +1,3 @@
+solveMaze/maze
 solveMaze/maze_solver
+solveMaze/*.o
