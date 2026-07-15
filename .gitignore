@@ -1,3 +1,8 @@
 solveMaze/maze
 solveMaze/maze_solver
 solveMaze/*.o
+
+Stack/arrayBaseStack
+Stack/listBaseStack
+Stack/*.o
+Stack/*.dSYM/
