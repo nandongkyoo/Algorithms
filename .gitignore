@@ -6,3 +6,11 @@ Stack/arrayBaseStack
 Stack/listBaseStack
 Stack/*.o
 Stack/*.dSYM/
+
+Queue/circularMain
+Queue/*.o
+Queue/*.dSYM/
+
+DynamicArray/dynamicArrayMain
+DynamicArray/*.o
+DynamicArray/*.dSYM/
