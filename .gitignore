@@ -14,3 +14,7 @@ Queue/*.dSYM/
 DynamicArray/dynamicArrayMain
 DynamicArray/*.o
 DynamicArray/*.dSYM/
+
+LinkedList/linkedListMain
+LinkedList/*.o
+LinkedList/*.dSYM/
